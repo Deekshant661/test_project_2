@@ -43,13 +43,13 @@ body{
     border-radius: 50%;
 
 }
-.paper.kiome1,
+/* .paper.kiome1,
 .paper.kiome2{
     position: relative;
     width : 200px;
     height : 200px; 
     padding: 0;
-    border-radius: 50%;
+    border-radius: 50%; */
 
 }
 img{
@@ -58,7 +58,7 @@ img{
     user-select: none;
 
 }
-.paper.kiome1 ::after{
+/* .paper.kiome1 ::after{
     content: "";
     background-image: url('images/kiome1.webp');
     width: 100%;
@@ -83,7 +83,7 @@ img{
     background-position: center center;
     background-repeat: no-repeat;
     opacity: 0.6;
-}
+} */
 .paper.heart ::after{
     content: "";
     background-image: url('images/heart.webp');
