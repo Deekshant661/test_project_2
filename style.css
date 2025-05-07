@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+.paper{
+    padding: 100px 100px;
+}
+body{
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/bg.jpeg');
+    background-size: 1000px;
+    background-position: center center ;
+}
+
+.paper{
+    position: absolute;
+    /* position absolute will make your elements be on top of each other. */
+    background-image: url('images/paper.webp');
+    background-size: 400px;
+    background-position: center center;
+    padding: 20px 100px;
+    transform: rotateZ(-5deg);
+    box-shadow: 1px 2px 20px 0px rgba(0,0,0,0.5);
+
+}
+
+
+.paper.text{
+    padding: 40px;
+}
+
+.paper.text p{
+    font-size: 30px;
+}
+
+.paper.heart{
+    position: relative;
+    width : 200px;
+    height : 200px; 
+    padding: 0;
+    border-radius: 50%;
+
+}
+.paper.kiome1,
+.paper.kiome2{
+    position: relative;
+    width : 200px;
+    height : 200px; 
+    padding: 0;
+    border-radius: 50%;
+
+}
+img{
+    max-height: 200px;
+    width: 100%;
+    user-select: none;
+
+}
+.paper.kiome1 ::after{
+    content: "";
+    background-image: url('images/kiome1.webp');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+.paper.kiome2 ::after{
+    content: "";
+    background-image: url('images/kiome2.webp');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+.paper.heart ::after{
+    content: "";
+    background-image: url('images/heart.webp');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+
+p{
+    font-family: zeyada;
+    font-size: 50px;
+    color: rgb(0,0,220);
+    opacity: 0.75;
+    user-select: none;
+}
